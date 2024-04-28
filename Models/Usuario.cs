@@ -26,6 +26,7 @@ namespace tienda.Models
         {
         }
 
+
         // Constructor con parámetros
         public Usuario(int idUsuario, int rol, string nombreUsuario, string correo, string contraseña, int estatus, string foto)
         {
@@ -36,6 +37,15 @@ namespace tienda.Models
             Contraseña = contraseña;
             Estatus = estatus;
             Foto = foto;
+        }
+        public void SetFromDataRow(DataRow row)
+        {
+            IdUsuario = Convert.ToInt32(row["id_usuario"]);
+            Rol = Convert.ToInt32(row["rol"]);
+            NombreUsuario = row["nombre_usuario"].ToString();
+            Correo = row["correo"].ToString();
+            Contraseña = row["contrasena"].ToString();
+            Estatus = Convert.ToInt32(row["estatus"]);
         }
 
         public bool GuardarUsuario(Usuario usuario)
@@ -62,22 +72,32 @@ namespace tienda.Models
             return false;
 
         }
-        public bool login(Usuario usuario)
+        public bool Login(Usuario usuario)
         {
             if(usuario == null)
             {
                return false;
             }
-            //NpgsqlParameter correo = new NpgsqlParameter("correo", usuario.Correo);
-            //NpgsqlParameter contrasena = new NpgsqlParameter("contrasena", usuario.Contraseña);
-            //List<NpgsqlParameter> lts = new List<NpgsqlParameter>
-
-
-            return true;
+            NpgsqlParameter correo = new NpgsqlParameter("correo", usuario.Correo);
+            NpgsqlParameter contrasena = new NpgsqlParameter("contrasena", usuario.Contraseña);
+            List<NpgsqlParameter> lts = new List<NpgsqlParameter>
+            {
+                correo, contrasena
+            };
+            const string sql = "Select * From usuario where correo = @correo and contrasena = @contrasena and estatus = 1";
+            DataTable dt = GetQuery(sql, lts);
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                SetFromDataRow(dt.Rows[0]);
+                return true;
+            }
+   
+            return false;
         }
+          
 
 
-        }
+}
     }
 
 

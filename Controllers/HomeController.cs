@@ -14,7 +14,7 @@ namespace tienda.Controllers
         }
         [HttpPost]
         public ActionResult Index(Usuario usuario) {
-
+           
             
 
 
