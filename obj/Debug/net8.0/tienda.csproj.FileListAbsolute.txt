@@ -1,0 +1,60 @@
+C:\Users\Cristian\source\repos\tienda\tienda\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Cristian\source\repos\tienda\tienda\bin\Debug\net8.0\appsettings.json
+C:\Users\Cristian\source\repos\tienda\tienda\bin\Debug\net8.0\tienda.staticwebassets.runtime.json
+C:\Users\Cristian\source\repos\tienda\tienda\bin\Debug\net8.0\tienda.exe
+C:\Users\Cristian\source\repos\tienda\tienda\bin\Debug\net8.0\tienda.deps.json
+C:\Users\Cristian\source\repos\tienda\tienda\bin\Debug\net8.0\tienda.runtimeconfig.json
+C:\Users\Cristian\source\repos\tienda\tienda\bin\Debug\net8.0\tienda.dll
+C:\Users\Cristian\source\repos\tienda\tienda\bin\Debug\net8.0\tienda.pdb
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.AssemblyInfoInputs.cache
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.AssemblyInfo.cs
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.RazorAssemblyInfo.cache
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.RazorAssemblyInfo.cs
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\staticwebassets\msbuild.tienda.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\staticwebassets\msbuild.build.tienda.props
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.tienda.props
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.tienda.props
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\scopedcss\bundle\tienda.styles.css
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\scopedcss\projectbundle\tienda.bundle.scp.css
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.dll
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\refint\tienda.dll
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.pdb
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\tienda.genruntimeconfig.cache
+C:\Users\Cristian\source\repos\tienda\tienda\obj\Debug\net8.0\ref\tienda.dll
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\bin\Debug\net8.0\appsettings.json
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\bin\Debug\net8.0\tienda.staticwebassets.runtime.json
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\bin\Debug\net8.0\tienda.exe
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\bin\Debug\net8.0\tienda.deps.json
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\bin\Debug\net8.0\tienda.runtimeconfig.json
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\bin\Debug\net8.0\tienda.dll
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\bin\Debug\net8.0\tienda.pdb
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.AssemblyInfoInputs.cache
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.AssemblyInfo.cs
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.RazorAssemblyInfo.cache
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.RazorAssemblyInfo.cs
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\staticwebassets\msbuild.tienda.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\staticwebassets\msbuild.build.tienda.props
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.tienda.props
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.tienda.props
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\scopedcss\bundle\tienda.styles.css
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\scopedcss\projectbundle\tienda.bundle.scp.css
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.dll
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\refint\tienda.dll
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.pdb
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\tienda.genruntimeconfig.cache
+C:\Users\FAMILIA FEDERICO\Downloads\tienda\tienda\obj\Debug\net8.0\ref\tienda.dll

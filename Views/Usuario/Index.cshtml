@@ -1,0 +1,35 @@
+﻿
+@{
+    @model tienda.Models.Usuario
+    ViewData["Title"] = "Tiendita";
+    var datos = ViewData["lista"] as tienda.Models.Usuario;
+
+}
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+   
+</head>
+<body>
+    <div class="login-form">
+        <form action="/login" method="post">
+            <h2 class="text-center">Iniciar Sesión</h2>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Correo electrónico" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Contraseña" required="required">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+            </div>
+
+            <h1>@datos.NombreUsuario</h1>
+
+        </form>
+    </div>
+</body>
