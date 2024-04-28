@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Nuevo Usuario";
     var mensaje = ViewData["Mensaje"];
     @model tienda.Models.Usuario;
 }
@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="columns is-centered">
                     <div class="column is-one-third">
-                        <h1 class="title">Iniciar Sesión</h1>
+                        <h1 class="title">Crear usuario</h1>
                     @using (Html.BeginForm("Index", "CrearUsuario", FormMethod.Post, new { @class = "column" }))
                     {
                         <div class="field">
@@ -52,7 +52,7 @@
                                 {
                                     <article class="message is-success">
                                         <div class="message-header">
-                                            <p>Success</p>
+                                            <p>Exito!</p>
                                             <button class="delete" aria-label="delete"></button>
                                         </div>
                                         <div class="message-body">
@@ -64,7 +64,7 @@
                             case "2":{
                                     <article class="message is-danger">
                                         <div class="message-header">
-                                            <p>Danger</p>
+                                            <p>Error!</p>
                                             <button class="delete" aria-label="delete"></button>
                                         </div>
                                         <div class="message-body">
