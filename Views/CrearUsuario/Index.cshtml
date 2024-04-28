@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    var mensaje = ViewData["Mensaje"];
     @model tienda.Models.Usuario;
 }
 
@@ -17,12 +18,12 @@
                 <div class="columns is-centered">
                     <div class="column is-one-third">
                         <h1 class="title">Iniciar Sesión</h1>
-                    @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "column" }))
+                    @using (Html.BeginForm("Index", "CrearUsuario", FormMethod.Post, new { @class = "column" }))
                     {
                         <div class="field">
                             @Html.Label("Usuario",null,new{@class="label"})
                             <div class="control">
-                                @Html.TextBoxFor(m=>m.Correo,"Ingrese su Usuario", new{@class="input is-info",@type="usuario"})
+                                @Html.TextBoxFor(m=>m.NombreUsuario,"Ingrese su Usuario", new{@class="input is-info",@type="usuario"})
                             </div>
                         </div>
                         <div class="field">
@@ -42,6 +43,40 @@
                                 <button class="button is-info">Confirmar</button>
                             </div>
                         </div>
+                    }
+                    @if(mensaje != null)
+                    {
+                        @switch (mensaje)
+                        {
+                            case "1":
+                                {
+                                    <article class="message is-success">
+                                        <div class="message-header">
+                                            <p>Success</p>
+                                            <button class="delete" aria-label="delete"></button>
+                                        </div>
+                                        <div class="message-body">
+                                            Se guardo satisfactoriamente el usuario!
+                                        </div>
+                                    </article>
+                                    break;
+                                }
+                            case "2":{
+                                    <article class="message is-danger">
+                                        <div class="message-header">
+                                            <p>Danger</p>
+                                            <button class="delete" aria-label="delete"></button>
+                                        </div>
+                                        <div class="message-body">
+                                           No se pudo guardar
+                                        </div>
+                                    </article>
+
+
+                                    break;
+                                }
+
+                        }
                     }
 
                 </div>
