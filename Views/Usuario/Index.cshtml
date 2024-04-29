@@ -15,9 +15,9 @@
     <section class="section">
         <div class="container">
             <div class="columns is-centered">
-                <div class="column is-one-third">
+                <div class="column is-one-third" style="border: 2px solid #4BC765; box-shadow: 0 0 10px rgba(75, 199, 101, 1);">
                     <h1 class="title">Iniciar Sesión</h1>
-                    @using (Html.BeginForm("Index", "Usuario", FormMethod.Post, new { @class = "column is-half" }))
+                    @using (Html.BeginForm("Index", "Usuario", FormMethod.Post, null))
                     {
                         <div class="field">
                             @Html.Label("Usuario", null, new { @class = "label" })
@@ -31,9 +31,18 @@
                                 @Html.TextBoxFor(m => m.Pass, "Ingrese su correo electronico", new { @class = "input", @type = "password" })
                             </div>
                         </div>
+
                         <div class="field">
                             <div class="control">
-                                <button class="button is-success">Success</button>
+                                <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+                                    <ul>
+                                        <button class="button is-success">Success</button>
+                                        <li style="padding-top: 10px;"><a onclick="redirectToAction()">Registrate</a></li>
+                                        <li style="padding-top: 10px;"><a href="#">Olvide mi contraseña</a></li>
+                                    </ul>
+                                </nav>
+                                
+                                
                             </div>
                         </div>
 
@@ -45,3 +54,8 @@
 
 
 </body>
+<script>
+    function redirectToAction() {
+        window.location.href = '@Url.Action("Index", "CrearUsuario")'; 
+    }
+</script>
